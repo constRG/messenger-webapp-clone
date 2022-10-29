@@ -204,40 +204,6 @@ button:focus {
     width: 100%;
 }
 
-
-/* DESKTOP APP HTML*/
-#desktop_app .desktop_app_container {
-    display: flex;
-    align-items: center;
-    padding: 70px 0 0 20px;
-    overflow-x: hidden;
-}
-
-#desktop_app .desktop_app_container .desktop_app_col-1 {
-    margin-right: 50px;
-}
-
-#desktop_app .desktop_app_container .desktop_app_col-1 .desktop_app_col-1_text .desktop_app_col-1_title {
-    font-size: 90px;
-    margin-bottom: 30px;
-}
-
-#desktop_app .desktop_app_container .desktop_app_col-1 .desktop_app_col-1_text .desktop_app_col-1_p {
-    line-height: 35px;
-    margin-bottom: 30px;
-    font-size: 20px;
-}
-
-#desktop_app .desktop_app_container .desktop_app_col-1 .desktop_app_col-1_text #dl_for_windows {
-    padding: 15px 30px;
-    background-color: var(--0a7cff);
-    color: var(--fff);
-    text-decoration: none;
-    border-radius: 50px;
-    font-size: 19px;
-    font-weight: var(--bold);
-}
-
 /* FEATURES HTML */
 #features .more_ways_to_stay_connected_container {
     display: flex;
@@ -256,10 +222,8 @@ button:focus {
 }
 
 #features .more_ways_to_stay_connected_container .more_ways_to_stay_connected_col-1 .more_ways_to_stay_connected_col-1_text .more_ways_to_stay_connected_col-1_p {
-
     line-height: 35px;
     margin-bottom: 30px;
-    font-size: 20px;
 }
 
 #features .more_ways_to_stay_connected_container .more_ways_to_stay_connected_col-2 #more_ways_to_stay_connected_col-2_img {
@@ -310,20 +274,19 @@ button:focus {
     margin-right: 150px;
 }
 
-#features .watch_together_container .watch_together_col-1 .watch_together_col-1_text>.watch_together_col-1_header {
+#features .watch_together_container .watch_together_col-1 .watch_together_col-1_text .watch_together_col-1_header {
     font-size: 16px;
     color: var(--595959);
     display: inline-block;
     margin-bottom: 25px;
 }
 
-#features .watch_together_container .watch_together_col-1 .watch_together_col-1_text>.watch_together_col-1_title {
+#features .watch_together_container .watch_together_col-1 .watch_together_col-1_text .watch_together_col-1_title {
     font-size: 60px;
     margin-bottom: 25px;
 }
 
-#features .watch_together_container .watch_together_col-1 .watch_together_col-1_text>.watch_together_col-1_p {
-    font-size: 18px;
+#features .watch_together_container .watch_together_col-1 .watch_together_col-1_text .watch_together_col-1_p {
     color: var(--595959);
     line-height: 30px;
 }
@@ -332,6 +295,37 @@ button:focus {
     max-width: 500px;
 }
 
+/* DESKTOP APP HTML*/
+#desktop_app .desktop_app_container {
+    display: flex;
+    align-items: center;
+    padding: 70px 0 0 20px;
+    overflow-x: hidden;
+}
+
+#desktop_app .desktop_app_container .desktop_app_col-1 {
+    margin-right: 50px;
+}
+
+#desktop_app .desktop_app_container .desktop_app_col-1 .desktop_app_col-1_text .desktop_app_col-1_title {
+    font-size: 90px;
+    margin-bottom: 30px;
+}
+
+#desktop_app .desktop_app_container .desktop_app_col-1 .desktop_app_col-1_text .desktop_app_col-1_p {
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+#desktop_app .desktop_app_container .desktop_app_col-1 .desktop_app_col-1_text #dl_for_windows {
+    padding: 15px 30px;
+    background-color: var(--0a7cff);
+    color: var(--fff);
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: var(--bold);
+}
 
 /* PRIVACY AND SAFETY HTML */
 #privacy_and_safety .connect_with_confidence .connect_with_confidence_container {
@@ -400,7 +394,7 @@ button:focus {
         padding: 30px;
     }
 
-    /* HERO */
+    /* INDEX HTML */
     #hero .hero_container {
         flex-direction: column;
         align-items: center;
@@ -419,6 +413,7 @@ button:focus {
         font-size: 50px;
     }
 
+
     #hero .hero_container .hero_col-1 .hero_col-1_text .hero_col-1_p {
 
         margin-bottom: 70px;
@@ -428,19 +423,7 @@ button:focus {
         width: 100%;
     }
 
-
-    /* DESKTOP APP */
-    #desktop_app .desktop_app_container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #desktop_app .desktop_app_container .desktop_app_col-1 {
-        margin-right: unset;
-        margin-bottom: 80px;
-    }
-
-    /* FEATURES */
+    /* FEATURES HTML */
 
     #features .more_ways_to_stay_connected_container {
         flex-direction: column;
@@ -478,10 +461,34 @@ button:focus {
         margin-right: 30px;
     }
 
-    /* PRIVACY AND SAFETY */
+    /* DESKTOP APP HTML */
+    #desktop_app .desktop_app_container {
+        flex-direction: column;
+        text-align: center;
+        padding: 70px 80px 0 80px;
+    }
+
+    #desktop_app .desktop_app_container .desktop_app_col-1 {
+        margin-right: unset;
+        margin-bottom: 80px;
+    }
+
+    #desktop_app .desktop_app_container .desktop_app_col-1 .desktop_app_col-1_text .desktop_app_col-1_title {
+        font-size: 50px;
+    }
+
+    /* PRIVACY AND SAFETY HTML */
     #privacy_and_safety .connect_with_confidence .connect_with_confidence_container {
         text-align: center;
         flex-direction: column;
+    }
+
+    #privacy_and_safety .connect_with_confidence .connect_with_confidence_container .connect_with_confidence_col-1 .connect_with_confidence_col-1_title {
+        font-size: 50px;
+    }
+
+    #for_developers .for_developers_container .for_developers_title {
+        font-size: 50px;
     }
 
     /* FOOTER */
